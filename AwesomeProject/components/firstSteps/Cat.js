@@ -1,11 +1,13 @@
 import {Component} from "react";
+import React from "react";
+import {Text, View} from "react-native";
 
 class Cat extends Component{
     render() {
         return (
-            <div className={"Cat"}>
-                <p>Hallo, ich bin deine Katze!</p>
-            </div>
+            <View className={"Cat"}>
+                <Text>Hallo, ich bin deine Katze!</Text>
+            </View>
         )
     }
 }
